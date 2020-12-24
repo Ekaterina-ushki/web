@@ -1,0 +1,229 @@
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+    .navigate-header__menu-container {
+        width: 97%;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .navigate-header_left-top__line,
+    .adapt {
+        display: none;
+    }
+
+    /*добавление*/
+    .add-form {
+        width: 97%;
+    }
+
+    .add-form__textbox {
+        width: 95%;
+    }
+
+    .add-form__append-img {
+        width: 100%;
+    }
+
+    .add-form__appended {
+        width: 80%;
+    }
+
+    .add-form__uploaded {
+        width: 800px;
+    }
+
+    .add-form__format-error {
+        margin: 0 10% 0 20%;
+        width: 300%;
+    }
+
+    .add-form__supply {
+        margin: 12% 0 12% 0;
+        padding: 15px 0 15px 0;
+        width: 30%;
+    }
+    /*конец:добавление*/
+
+    /*Подвал*/
+    .footer {
+        padding: 0 0px 200px 0px;
+        height: 300px;
+    }
+
+    .footer-box {
+        width: 97%;
+        position: relative;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 100px;
+    }
+
+    .footer-box__logo {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+
+    .helpful-links {
+        width: 80%;
+        padding-right: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .helpful-links__column {
+        margin: 0 0% 0 10%;
+    }
+
+    .helpful-links__link > div {
+        width: 130px;
+    }
+
+    .contact-data {
+        margin: 10% 0% 0% 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .contact-data__column {
+        width: 120px;
+    }
+
+    .contact-data__info {
+        width: 150px;
+    }
+    /*конец:Подвал*/
+}
+
+
+@media only screen and (max-device-width: 539px) {
+    .navigate-header__navigate-menu-container {
+        width: 96%;
+    }
+
+    .navigate-header_left-top__line,
+    .navigate-header_left-top__text,
+    .navigate-header_right-top__text,
+    .navigate-header_right-top__telephone {
+        display: none;
+    }
+
+    .navigate-header_right-top__icon{
+        padding-right: 10px;
+    }
+
+    /*добавление*/
+    .add-form {
+        width: 91%;
+    }
+
+    .add-form__textbox {
+        width: 98%;
+    }
+
+    .add-form__textbox-info {
+        width: 100%;
+    }
+
+    .add-form__append-img {
+        position: relative;
+        padding-bottom: 20%;
+    }
+
+    .add-form__uploaded {
+        position: absolute;
+        bottom: -20%;
+        left: 0;
+        margin: 0;
+    }
+
+    .add-form__format-error {
+        position: absolute;
+        bottom: 18%;
+        left: 0;
+        margin: 0;
+    }
+
+    .add-form__supply {
+        width: 65%;
+    }
+    /*конец:добавление*/
+
+    /*Подвал*/
+    .footer {
+        padding: 0 0px 80px 0px;
+    }
+
+    .footer-box__logo {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+
+    .footer-box {
+        width: 97%;
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 100px;
+    }
+
+    .footer-box__logo {
+        margin-left: 5%;
+        margin-bottom: 10%;
+        margin-top: 10px;
+    }
+
+    .footer-box__logo {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+
+    .helpful-links {
+        padding-right: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .helpful-links__column {
+        margin: 10% 0% 0 0%;
+    }
+
+    .helpful-links__link > div {
+        width: 130px;
+    }
+
+    .contact-data {
+        margin: 10% 0% 0% 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .contact-data__column {
+        width: 120px;
+    }
+
+    .contact-data__info {
+        width: 150px;
+    }
+    /*конец: Подвал*/
+
+
+    .authorisation-form__input-error {
+        margin-top: 0;
+        height: 200px;
+    }
+
+    .authorisation-form__input {
+        margin-top: 0;
+    }
+
+    #container {
+        z-index: 10;
+    }
+}
