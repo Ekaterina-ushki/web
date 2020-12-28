@@ -30,17 +30,6 @@ background.onmousedown = function(e) {
     }
 }
 
-supplyButton.onclick = function(){
-    let invFields = getInvalidFields();
-
-    if (invFields.length > 0) {
-        displayErrors(invFields);
-    } else {
-        document.location.href = "../html/admin.html";
-        inputData.global.style.border = "1px solid #23415E";
-        error.innerHTML = "";
-    }
-
 let getInvalidFields = function() {
     let data = [];
 
@@ -62,4 +51,15 @@ let displayErrors = function(data) {
         data[key].style.border = "1px solid red";
     }
 }
+
+supplyButton.onclick = function(){
+    let invFields = getInvalidFields();
+
+    if (invFields.length > 0) {
+        displayErrors(invFields);
+    } else {
+        document.location.href = "../html/admin.html";
+        inputData.global.style.border = "1px solid #23415E";
+        error.innerHTML = "";
+    }
 }
