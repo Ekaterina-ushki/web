@@ -58,9 +58,10 @@ let multiItemSlider = (function () {
 
         let transformItem = function (direction) {
             let nextItem;
+            let positionRightItem = positionLeftItem + wrapperWidth / itemWidth - 1;
             if (direction === 'right') {
                 positionLeftItem++;
-                if ((positionLeftItem + wrapperWidth / itemWidth - 1) > position.getMax()) {
+                if (positionRightItem > position.getMax()) {
                     nextItem = position.getItemMin();
                     items[nextItem].position = position.getMax() + 1;
                     items[nextItem].transform += items.length * 100;
